@@ -13,3 +13,5 @@ git remote -v
 A "fetch" and a "push" address should be printed to the terminal.
 
 Step 4: Use git add <challenge folder name> to stage the changes from this challenge
+
+Step 5:Commit these challenge files with git commit -m "<message>" and add a meaningful message, e.g., "add solution for html and the web - personal website".
