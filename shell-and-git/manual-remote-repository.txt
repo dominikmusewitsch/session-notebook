@@ -15,3 +15,5 @@ A "fetch" and a "push" address should be printed to the terminal.
 Step 4: Use git add <challenge folder name> to stage the changes from this challenge
 
 Step 5:Commit these challenge files with git commit -m "<message>" and add a meaningful message, e.g., "add solution for html and the web - personal website".
+
+Last step: Use git push to push the new commit to your remote repository on GitHub. The first time you need to specify where you want to push to with the command git push -u origin main.
