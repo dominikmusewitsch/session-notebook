@@ -1,0 +1,1 @@
+Step 1: Go to folder that shall become a git repository. Inside this folder, turn the folder into a git repository with the command git init.
