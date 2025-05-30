@@ -1,3 +1,14 @@
 Step 1: Go to folder that shall become a git repository. Inside this folder, turn the folder into a git repository with the command git init.
 
 Step 2: Create a new empty remote repository also called [whatever you want] in your Github account.
+
+Step 3: Copy the SSH repository address, e.g., git@github.com:<your-github-name>/web-challenges.git, and add it as the remote repository "origin" to our local [whatever you want] repository (a repository can be linked to multiple remote repositories, so we need to give them nicknames to distinguish them; "origin" is the standard name for the main remote repository):
+
+git remote add origin <ssh link>
+
+Check if the remote repository was successfully linked with the command:
+
+git remote -v
+
+A "fetch" and a "push" address should be printed to the terminal.
+
