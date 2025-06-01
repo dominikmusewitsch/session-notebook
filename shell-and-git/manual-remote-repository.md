@@ -1,19 +1,11 @@
-Step 1: Go to folder that shall become a git repository. Inside this folder, turn the folder into a git repository with the command git init.
-
-Step 2: Create a new empty remote repository also called [whatever you want] in your Github account.
-
-Step 3: Copy the SSH repository address, e.g., git@github.com:<your-github-name>/web-challenges.git, and add it as the remote repository "origin" to our local [whatever you want] repository (a repository can be linked to multiple remote repositories, so we need to give them nicknames to distinguish them; "origin" is the standard name for the main remote repository):
-
-git remote add origin <ssh link>
-
-Check if the remote repository was successfully linked with the command:
-
-git remote -v
-
-A "fetch" and a "push" address should be printed to the terminal.
-
-Step 4: Use git add <challenge folder name> to stage the changes from this challenge
-
-Step 5:Commit these challenge files with git commit -m "<message>" and add a meaningful message, e.g., "add solution for html and the web - personal website".
-
-Last step: Use git push to push the new commit to your remote repository on GitHub. The first time you need to specify where you want to push to with the command git push -u origin main.
+| **Schritt**                             | **Anweisung**                                                                                                                              |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| 1                                       | Im Ordner der ein lokal repository werden soll folgenden Befehl eingeben: `git init`                                                       |
+| 2                                       | Erstelle einen neuen und leeren remote repository auf GitHub                                                                               |
+| 3                                       | Kopiere die SSH repository Adresse und verküfe den remote repsoitory mit dem lokalen: `git remote add origin <ssh link>`                   |
+| 4                                       | Überprüfe ob der remote repository erfolgreich verknüpft wurde: `git remote -v` (eine "fetch" und "push" Adresse sollten angezeigt werden) |
+| **Erfolgreiche Verknüpfung**            |                                                                                                                                            |
+| **lokale Order/Datein synchronisieren** |                                                                                                                                            |
+| 5                                       | Gebe `git add .` oder `git add <datei>`ein, um deine Änderungen zu stagen                                                                  |
+| 6                                       | Gebe `git commit -m "<Nachricht>"`ein, um die Änderungen zu commiten                                                                       |
+| 7                                       | Gebe `git push -u origin main` oder `git push`ein, um den neuen commit mit dem remote repository zu synchronisieren                        |
